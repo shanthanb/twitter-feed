@@ -1,0 +1,211 @@
+html.dark-mode{
+    background-color: $dark-background-color;
+    color:#d9d9d9;
+}
+.dark-mode .logo{
+    fill:#d9d9d9;
+}
+.dark-mode .verified{
+    fill:#d9d9d9;
+}
+.dark-mode button{
+    color:white;
+}
+.dark-mode .option-icon{
+    fill:#d9d9d9;
+}
+.dark-mode input,
+.dark-mode .status-text{
+    color: #d9d9d9;
+}
+.dark-mode footer span,
+.dark-mode .trend-recommendations span,
+.dark-mode .display-settings-description span,
+.dark-mode .dashboard-user-settings-icon,
+.dark-mode .like-retweet,
+.dark-mode .like-retweet-user,
+.dark-mode .user-account,
+.dark-mode .time-posted,
+.dark-mode .tweet-user-setting-icon,
+.dark-mode .reaction-box,
+.dark-mode .reaction,
+.dark-mode .search-icon,
+.dark-mode .react,
+.dark-mode .trend-settings-icon,
+.dark-mode .more-menu-icon,
+.dark-mode ::placeholder,
+.dark-mode .tweet-settings-dropdown-icon,
+.dark-mode .followers,
+.dark-mode .following,
+.dark-mode .followed-by-text,
+.dark-mode .sidebar-dashboard-icon{
+    color: $dark-mode-span;
+    fill: $dark-mode-span;
+}
+
+.dark-mode .main{
+    border-right: 1px solid $dark-mode-border-color;
+    border-left: 1px solid $dark-mode-border-color;
+}
+.dark-mode .dashboard-dropdown{
+    .dropdown-item{
+    color:#d9d9d9;
+    border-top: 1px solid $dark-mode-border-color;
+    }
+}
+.dark-mode .home{
+    background-color: $dark-background-color;
+    border-bottom: 1px solid $dark-mode-border-color;
+    span{
+        color: #d9d9d9;
+    }
+}
+.dark-mode .tweet-status-box,
+.dark-mode .status-text,
+.dark-mode .separator,
+.dark-mode .tweet-box,
+.dark-mode .trends-section-title,
+.dark-mode .trend-recommendations-box,
+.dark-mode .follow-section-title,
+.dark-mode .who-to-follow-user{
+    border-bottom: 1px solid $dark-mode-border-color;
+}
+.dark-mode .imbed-files{
+    border:1px solid $dark-mode-border-color !important;
+}
+.dark-mode .separator{
+    background-color: rgb(21, 24, 28);
+}
+.dark-mode .trends,
+.dark-mode .who-to-follow{
+    background-color: rgb(21, 24, 28);
+}
+.dark-mode .search-box{
+    background-color: rgb(32, 35, 39);
+}
+
+.dark-mode .dropdown-menu{
+    background-color: $dark-background-color;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px, 
+    rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
+    .dropdown-item{
+        &:hover{
+        background-color: rgb(21,24,28);
+        }
+        span{
+            color:#d9d9d9;
+        }
+
+    }
+}
+.dark-mode .divider{
+    background-color: $dark-mode-border-color;
+}
+.dark-mode .tweet-box:hover,
+.dark-mode .trend-recommendations-box:hover,
+.dark-mode .trends-show-more:hover,
+.dark-mode .who-to-follow-user:hover,
+.dark-mode .follow-show-more:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.dark-mode .modal-content{
+    color: #d9d9d9;
+    background-color: $dark-background-color;
+    .modal-title{
+        color: #d9d9d9;
+    }
+}
+.dark-mode .display-settings-example-box-border{
+    border:1px solid $dark-mode-border-color !important;
+}
+.dark-mode .display-settings-name-example h4,
+.dark-mode .display-settings-text-example{
+    color: #d9d9d9;
+}
+.dark-mode .display-settings-font-size-box,
+.dark-mode .display-settings-change-theme-box,
+.dark-mode .display-settings-change-mode-box{
+    background-color: rgb(21, 24, 28);
+}
+.dark-mode .display-settings-change-mode-dim-box{
+    border:2px solid $dark-mode-border-color !important;
+}
+.dark-mode .display-settings-change-mode-default-box{
+    border:2px solid $dark-mode-border-color !important;
+}
+.dark-mode .display-settings-change-mode-dark-box{
+    background-color: $dark-background-color;
+    border:2px solid $theme-blue;
+}
+
+
+.dark-mode .tweet-user-name .tooltip,
+.dark-mode .who-to-follow-id .tooltip{
+    background-color: $dark-background-color;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px, 
+    rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
+}
+.dark-mode .followed-by-avatars{
+    img{
+        border: 1px solid $dark-background-color !important;
+    }
+}
+
+.dark-mode #display-settings{
+    color:#d9d9d9;
+    .modal-content{
+        background:$dark-background-color;
+        .modal-header{
+            .modal-title{
+                color:#d9d9d9;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 568.98px){
+    .dark-mode header {
+        #dashboard{
+            .dashboard-options{
+                border-top:1px solid $dark-mode-border-color;
+                border-bottom:1px solid $dark-mode-border-color;
+                background-color: $dark-background-color;
+            }
+        }
+    }
+}
+    .dark-mode #display-settings{
+        color:#d9d9d9;
+        .modal-content{
+            background:$dark-background-color;
+            .modal-header{
+                background-color: $dark-background-color;
+                border-bottom: 1px solid $dim-mode-border-color;
+                .modal-title{
+                    color:#d9d9d9;
+                }
+            }
+        }
+    }

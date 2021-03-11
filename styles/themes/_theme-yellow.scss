@@ -1,0 +1,90 @@
+.yellow-theme .active{
+    color:$theme-yellow !important;
+    transition: 0.2s all ease;
+    svg{
+        fill:$theme-yellow !important;
+        transition: 0.2s all ease;
+    }
+}
+.yellow-theme .tooltip-user-info{
+    span{
+        .link{
+            color:$theme-yellow;
+        }
+    }
+}
+.yellow-theme .tooltip-follow-button{
+    a{
+        background-color: $theme-yellow;
+    }
+}
+.yellow-theme .option-link button:hover{
+    color:$theme-yellow;
+}
+.yellow-theme .tweet-post{
+    a{
+        background-color: $theme-yellow;
+        transition: 0.2s all ease;
+    }
+}
+.yellow-theme .option-link:hover,
+.yellow-theme .tweet-status-bar-option-box:hover{
+    background-color:rgba(255,173,31, 0.1);
+    border-radius:50px;
+    color: $theme-yellow;
+    .option-icon{
+        fill: $theme-yellow;
+    }
+}
+.yellow-theme .dashboard-user-box:hover{
+    background-color:rgba(255,173,31, 0.1);
+}
+.yellow-theme .display-brush{
+    fill:$theme-yellow;
+}
+.yellow-theme .dashboard-tweet-button{
+    background-color: $theme-yellow;
+    transition: 0.2s all ease;
+}
+.yellow-theme .dashboard-dropdown-user-settings-icon{
+    fill: $theme-yellow;
+}
+.yellow-theme .hashtag,
+.yellow-theme .star,
+.yellow-theme .settings-icon,
+.yellow-theme .tweet-status-bar-option{
+    color:$theme-yellow;
+    fill: $theme-yellow !important;
+    transition: 0.2s all ease;
+}
+.yellow-theme .trends-show-more,
+.yellow-theme .follow-show-more{
+    color: $theme-yellow;
+    transition: 0.2s all ease;
+}
+.yellow-theme .follow a{
+    color:$theme-yellow !important;
+    border-color:$theme-yellow !important;
+    transition: 0.2s all ease;
+    &:hover{
+        background-color: rgba(255,173,31, 0.1) !important;
+    }
+}
+.yellow-theme .display-settings-done-button{
+    background-color: $theme-yellow;
+}
+.yellow-theme .display-settings-change-mode-default-box{
+    background-color: $default-background-color;
+    color: #000;
+    border:2px solid $theme-yellow !important;
+}
+.dim-mode .yellow-theme .display-settings-change-mode-dim-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-yellow !important;
+}
+.dark-mode .yellow-theme .display-settings-change-mode-dark-box{
+    background-color: $dark-background-color;
+    color: #fff;
+    border:2px solid $theme-yellow !important;
+}

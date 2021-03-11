@@ -1,0 +1,26 @@
+$theme-blue:rgba(29,161,242,1.00);
+$theme-yellow:rgb(255, 173, 31);
+$theme-magenta: rgb(224, 36, 94);
+$theme-purple:rgb(121, 75, 196);
+$theme-orange:rgb(244, 93, 34);
+$theme-green: rgb(23, 191, 99);
+
+$dark-mode-text:rgb(255, 255, 255);
+$light-mode-text:rgb(0, 0, 0);
+
+$dark-mode-span:rgb(136, 153, 166);
+$light-mode-span: rgb(91, 112, 131);
+
+$light-mode-border-color:rgb(235, 238, 240);
+$dim-mode-border-color: rgb(56, 68, 77);
+$dark-mode-border-color:rgb(47, 51, 54);
+
+$default-background-color:rgb(255, 255, 255);
+$dim-background-color:rgb(21, 32, 43);
+$dark-background-color:rgb(0, 0, 0);
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

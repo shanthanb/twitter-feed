@@ -1,0 +1,90 @@
+.purple-theme .active{
+    color:$theme-purple !important;
+    transition: 0.2s all ease;
+    svg{
+        fill:$theme-purple !important;
+        transition: 0.2s all ease;
+    }
+}
+.purple-theme .tooltip-user-info{
+    span{
+        .link{
+            color:$theme-purple;
+        }
+    }
+}
+.purple-theme .tooltip-follow-button{
+    a{
+        background-color: $theme-purple;
+    }
+}
+.purple-theme .option-link button:hover{
+    color:$theme-purple;
+}
+.purple-theme .tweet-post{
+    a{
+        background-color: $theme-purple;
+        transition: 0.2s all ease;
+    }
+}
+.purple-theme .option-link:hover,
+.purple-theme .tweet-status-bar-option-box:hover{
+    background-color:rgba(121,75,196, 0.1);
+    border-radius:50px;
+    color: $theme-purple;
+    .option-icon{
+        fill: $theme-purple;
+    }
+}
+.purple-theme .dashboard-user-box:hover{
+    background-color:rgba(121,75,196, 0.1);
+}
+.purple-theme .display-brush{
+    fill:$theme-purple;
+}
+.purple-theme .dashboard-tweet-button{
+    background-color: $theme-purple;
+    transition: 0.2s all ease;
+}
+.purple-theme .dashboard-dropdown-user-settings-icon{
+    fill: $theme-purple;
+}
+.purple-theme .hashtag,
+.purple-theme .star,
+.purple-theme .settings-icon,
+.purple-theme .tweet-status-bar-option{
+    color:$theme-purple;
+    fill: $theme-purple !important;
+    transition: 0.2s all ease;
+}
+.purple-theme .trends-show-more,
+.purple-theme .follow-show-more{
+    color: $theme-purple;
+    transition: 0.2s all ease;
+}
+.purple-theme .follow a{
+    color:$theme-purple !important;
+    border-color:$theme-purple !important;
+    transition: 0.2s all ease;
+    &:hover{
+        background-color: rgba(121,75,196, 0.1) !important;
+    }
+}
+.purple-theme .display-settings-done-button{
+    background-color: $theme-purple;
+}
+.purple-theme .display-settings-change-mode-default-box{
+    background-color: $default-background-color;
+    color: #000;
+    border:2px solid $theme-purple !important;
+}
+.dim-mode .purple-theme .display-settings-change-mode-dim-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-purple !important;
+}
+.dark-mode .purple-theme .display-settings-change-mode-dark-box{
+    background-color: $dark-background-color;
+    color: #fff;
+    border:2px solid $theme-purple !important;
+}

@@ -1,0 +1,16 @@
+html{
+    color:#000;
+}
+.dashboard-tweet-button span,
+.tweet-post a span{
+    color:#fff;
+}
+
+html.light-mode{
+    color:#000;
+}
+.light-mode .dashboard-tweet-button span,
+.light-mode .tweet-post a span{
+    color:#fff;
+}
+

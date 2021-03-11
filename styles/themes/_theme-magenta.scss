@@ -1,0 +1,90 @@
+.magenta-theme .active{
+    color:$theme-magenta !important;
+    transition: 0.2s all ease;
+    svg{
+        fill:$theme-magenta !important;
+        transition: 0.2s all ease;
+    }
+}
+.magenta-theme .tooltip-user-info{
+    span{
+        .link{
+            color:$theme-magenta;
+        }
+    }
+}
+.magenta-theme .tooltip-follow-button{
+    a{
+        background-color: $theme-magenta;
+    }
+}
+.magenta-theme .option-link button:hover{
+    color:$theme-magenta;
+}
+.magenta-theme .tweet-post{
+    a{
+        background-color: $theme-magenta;
+        transition: 0.2s all ease;
+    }
+}
+.magenta-theme .option-link:hover,
+.magenta-theme .tweet-status-bar-option-box:hover{
+    background-color:rgba(224,36,94, 0.1);
+    border-radius:50px;
+    color: $theme-magenta;
+    .option-icon{
+        fill: $theme-magenta;
+    }
+}
+.magenta-theme .dashboard-user-box:hover{
+    background-color:rgba(224,36,94, 0.1);
+}
+.magenta-theme .display-brush{
+    fill:$theme-magenta;
+}
+.magenta-theme .dashboard-tweet-button{
+    background-color: $theme-magenta;
+    transition: 0.2s all ease;
+}
+.magenta-theme .dashboard-dropdown-user-settings-icon{
+    fill: $theme-magenta;
+}
+.magenta-theme .hashtag,
+.magenta-theme .star,
+.magenta-theme .settings-icon,
+.magenta-theme .tweet-status-bar-option{
+    color:$theme-magenta !important;
+    fill: $theme-magenta !important;
+    transition: 0.2s all ease;
+}
+.magenta-theme .trends-show-more,
+.magenta-theme .follow-show-more{
+    color: $theme-magenta;
+    transition: 0.2s all ease;
+}
+.magenta-theme .follow a{
+    color:$theme-magenta !important;
+    border-color:$theme-magenta !important;
+    transition: 0.2s all ease;
+    &:hover{
+        background-color: rgba(224,36,84, 0.1) !important;
+    }
+}
+.magenta-theme .display-settings-done-button{
+    background-color: $theme-magenta;
+}
+.magenta-theme .display-settings-change-mode-default-box{
+    background-color: $default-background-color;
+    color: #000;
+    border:2px solid $theme-magenta !important;
+}
+.dim-mode .magenta-theme .display-settings-change-mode-dim-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-magenta !important;
+}
+.dark-mode .magenta-theme .display-settings-change-mode-dark-box{
+    background-color: $dark-background-color;
+    color: #fff;
+    border:2px solid $theme-magenta !important;
+}

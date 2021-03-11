@@ -1,0 +1,87 @@
+.active{
+    color:$theme-blue !important;
+    transition: 0.2s all ease;
+    svg{
+        fill:$theme-blue !important;
+        transition: 0.2s all ease;
+    }
+}
+.blue-theme .tooltip-user-info{
+    span{
+        .link{
+            color:$theme-blue;
+        }
+    }
+}
+.tooltip-follow-button{
+    a{
+        background-color: $theme-blue;
+    }
+}
+.option-link button:hover{
+    color:$theme-blue;
+}
+.tweet-post{
+    a{
+        background-color: $theme-blue;
+        transition: 0.2s all ease;
+    }
+}
+.option-link:hover,
+.tweet-status-bar-option-box:hover,
+.tweet-user-settings:hover{
+    background-color:rgba(29,161,242, 0.1);
+    border-radius:50px;
+    color:$theme-blue;
+    .option-icon{
+        fill: $theme-blue;
+    }
+}
+.tweet-user-settings:hover{
+    background-color:rgba(29,161,242, 0.1);
+    .tweet-user-setting-icon:hover{
+        fill: $theme-blue;
+        transition: 0.2s;
+    }
+}
+.dashboard-user-box:hover{
+    background-color:rgba(29,161,242, 0.1);
+}
+.display-brush{
+    fill:$theme-blue;
+}
+.dashboard-tweet-button{
+    background-color: $theme-blue;
+    transition: 0.2s all ease;
+}
+.dashboard-dropdown-user-settings-icon{
+    fill: $theme-blue;
+}
+.hashtag,
+.star,
+.settings-icon,
+.tweet-status-bar-option{
+    color:$theme-blue;
+    fill: $theme-blue;
+    transition: 0.2s all ease;
+}
+.trends-show-more,
+.follow-show-more{
+    color: $theme-blue;
+    transition: 0.2s all ease;
+}
+.follow a{
+    color:$theme-blue !important;
+    border-color:$theme-blue !important;
+    transition: 0.2s all ease;
+}
+.dim-mode.blue-theme .display-settings-change-mode-dim-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-blue !important;
+}
+.dark-mode.blue-theme .display-settings-change-mode-dark-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-blue !important;
+}

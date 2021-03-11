@@ -1,0 +1,91 @@
+.green-theme .active{
+    color:$theme-green !important;
+    transition: 0.2s all ease;
+    svg{
+        fill:$theme-green !important;
+        transition: 0.2s all ease;
+    }
+}
+.green-theme .tooltip-user-info{
+    span{
+        .link{
+            color:$theme-green;
+        }
+    }
+}
+.green-theme .tooltip-follow-button{
+    a{
+        background-color: $theme-green;
+    }
+}
+.green-theme .option-link button:hover{
+    color:$theme-green;
+}
+.green-theme .tweet-post{
+    a{
+        background-color: $theme-green;
+        transition: 0.2s all ease;
+    }
+}
+.green-theme .option-link:hover,
+.green-theme .tweet-status-bar-option-box:hover{
+    background-color:rgba(23,181,99, 0.1);
+    border-radius:50px;
+    color: $theme-green;
+    .option-icon{
+        fill: $theme-green;
+    }
+}
+.green-theme .dashboard-user-box:hover{
+    background-color:rgba(23,181,99, 0.1);
+}
+.green-theme .display-brush{
+    fill:$theme-green;
+}
+.green-theme .dashboard-tweet-button{
+    background-color: $theme-green;
+    transition: 0.2s all ease;
+}
+.green-theme .dashboard-dropdown-user-settings-icon{
+    fill: $theme-green;
+}
+.green-theme .hashtag,
+.green-theme .star,
+.green-theme .settings-icon,
+.green-theme .tweet-status-bar-option{
+    color:$theme-green !important;
+    fill: $theme-green !important;
+    transition: 0.2s all ease;
+}
+.green-theme .trends-show-more,
+.green-theme .follow-show-more{
+    color: $theme-green;
+    transition: 0.2s all ease;
+}
+.green-theme .follow a{
+    color:$theme-green !important;
+    border-color:$theme-green !important;
+    transition: 0.2s all ease;
+    &:hover{
+        background-color: rgba(23,191,99, 0.1) !important;
+    }
+}
+
+.green-theme .display-settings-done-button{
+    background-color: $theme-green;
+}
+.green-theme .display-settings-change-mode-default-box{
+    background-color: $default-background-color;
+    color: #000;
+    border:2px solid $theme-green !important;
+}
+.dim-mode .green-theme .display-settings-change-mode-dim-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-green !important;
+}
+.dark-mode .green-theme .display-settings-change-mode-dark-box{
+    background-color: $dark-background-color;
+    color: #fff;
+    border:2px solid $theme-green !important;
+}

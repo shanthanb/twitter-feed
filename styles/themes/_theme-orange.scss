@@ -1,0 +1,90 @@
+.orange-theme .active{
+    color:$theme-orange !important;
+    transition: 0.2s all ease;
+    svg{
+        fill:$theme-orange !important;
+        transition: 0.2s all ease;
+    }
+}
+.orange-theme .tooltip-user-info{
+    span{
+        .link{
+            color:$theme-orange;
+        }
+    }
+}
+.orange-theme .tooltip-follow-button{
+    a{
+        background-color: $theme-orange;
+    }
+}
+.orange-theme .option-link button:hover{
+    color:$theme-orange;
+}
+.orange-theme .tweet-post{
+    a{
+        background-color: $theme-orange;
+        transition: 0.2s all ease;
+    }
+}
+.orange-theme .option-link:hover,
+.orange-theme .tweet-status-bar-option-box:hover{
+    background-color:rgba(244,93,34, 0.1);
+    border-radius:50px;
+    color: $theme-orange;
+    .option-icon{
+        fill: $theme-orange
+    }
+}
+.orange-theme .dashboard-user-box:hover{
+    background-color:rgba(244,93,34, 0.1);
+}
+.orange-theme .display-brush{
+    fill:$theme-orange;
+}
+.orange-theme .dashboard-tweet-button{
+    background-color: $theme-orange;
+    transition: 0.2s all ease;
+}
+.orange-theme .dashboard-dropdown-user-settings-icon{
+    fill: $theme-orange;
+}
+.orange-theme .hashtag,
+.orange-theme .star,
+.orange-theme .settings-icon,
+.orange-theme .tweet-status-bar-option{
+    color:$theme-orange;
+    fill: $theme-orange !important;
+    transition: 0.2s all ease;
+}
+.orange-theme .trends-show-more,
+.orange-theme .follow-show-more{
+    color: $theme-orange;
+    transition: 0.2s all ease;
+}
+.orange-theme .follow a{
+    color:$theme-orange !important;
+    border-color:$theme-orange !important;
+    transition: 0.2s all ease;
+    &:hover{
+        background-color: rgba(244,83,34, 0.1) !important;
+    }
+}
+.orange-theme .display-settings-done-button{
+    background-color: $theme-orange;
+}
+.orange-theme .display-settings-change-mode-default-box{
+    background-color: $default-background-color;
+    color: #000;
+    border:2px solid $theme-orange !important;
+}
+.dim-mode .orange-theme .display-settings-change-mode-dim-box{
+    background-color: $dim-background-color;
+    color: #fff;
+    border:2px solid $theme-orange !important;
+}
+.dark-mode .orange-theme .display-settings-change-mode-dark-box{
+    background-color: $dark-background-color;
+    color: #fff;
+    border:2px solid $theme-orange !important;
+}

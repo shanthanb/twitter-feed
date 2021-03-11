@@ -1,0 +1,129 @@
+@import "./variables";
+
+@import "./_page-parts.scss/dashboard";
+@import "./_page-parts.scss/main";
+@import "./_page-parts.scss/explore";
+@import "./_page-parts.scss/main-modals";
+
+@import "./themes/theme-blue";
+@import "./themes/theme-yellow";
+@import "./themes/theme-magenta";
+@import "./themes/theme-purple";
+@import "./themes/theme-orange";
+@import "./themes/theme-green";
+
+
+@import "./modes/default-mode";
+@import "./modes/dim-mode";
+@import "./modes/dark-mode";
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+a{
+    text-decoration:none
+}
+a, 
+a:visited,
+a:active {
+    color: inherit;
+  }
+li{
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    transition: background-color .3s;
+    overflow-y: scroll;
+}
+footer span,
+.trend-recommendations span,
+.display-settings-description span,
+.dashboard-user-settings-icon,
+.like-retweet,
+.like-retweet-user,
+.user-account,
+.time-posted,
+.tweet-user-setting-icon,
+.reaction-box,
+.reaction,
+.search-icon,
+.react,
+.trend-settings-icon,
+.more-menu-icon,
+::placeholder,
+.tweet-settings-dropdown-icon,
+.followers,
+.following,
+.followed-by-text,
+.sidebar-dashboard-icon{
+    color: $light-mode-span;
+    fill: $light-mode-span;
+}
+.divider{
+    height:1px;
+    background-color: rgb(235, 238, 240);
+}
+a{
+    span{
+        font-weight: 600;
+    }
+}
+footer span{
+    font-weight: 300;
+}
+.link{
+    color:$theme-blue;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.verified{
+    height: 1.25em;
+    width: 1.25em;
+    margin-left:2px;
+    fill: rgba(29,161,242,1.00);
+}
+.verified-suggestion{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size:15px;
+    span{
+        display: flex;
+    }
+}
+.user-account{
+    font-size:15px;
+    font-weight: 300;
+}
+.tweet-box:hover,
+.tweet-box:hover,
+.trend-recommendations-box:hover,
+.trends-show-more:hover,
+.who-to-follow-user:hover,
+.follow-show-more:hover{
+    background-color:rgba(0,0,0,0.03);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+@media (max-width: 568.98px) {  
+    .no-mobile{
+        display:none !important;
+    }
+    .for-mobile{
+        display:block !important;
+    }
+}
